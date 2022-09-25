@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Googly Gopher</title>
+    <style>
+        main {
+            display: grid;
+            place-items: center;
+            position: relative;
+            
+        }
+        img {
+            max-width: 100%;
+            max-height: 100vh;
+            margin: auto;
+        }
+        .left-eye {
+            position: absolute;
+            max-width: 10%;
+            max-height: 10vh;
+        }
+        .right-eye {
+            position: absolute;
+            max-width: 10%;
+            max-height: 10vh;
+        }
+    </style>
+</head>
+<body>
+<main>
+    <img id="gopher" src="images/gopher.png" alt="gopher">
+    <img class="left-eye" id="left-eye" src="images/eye.png" alt="left eye">
+    <img class="right-eye" id="right-eye" src="images/eye.png" alt="right eye">
+</main>
+</body>
+</html>
